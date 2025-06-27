@@ -28,29 +28,27 @@ C:\Users\$env:USERNAME> Import-Module "C:\Program Files (x86)\WindowsPowerShell\
 > ```
 
 ## 📀 Usage
-### Basic playback
+### Basic Playback with Options
 ``` PowerShell
 Sound-Engine "C:\Music\Hope.mp3"
-```
-
-### With options
-``` PowerShell
 Sound-Engine "C:\Music\Hope.mp3" 0.8 15 -Loop
 ```
 
-### Interactive mode
-Just run it bare and follow the prompts:
+### Interactive Mode!
+Just run commands bare and follow the prompts!
 ```
 Sound-Engine
+Find-Files
 ```
 
 ### Alias example
+Aliases!
 ``` PowerShell
 Sound-Engine "C:\Music\Hope.mp3"
 play-audio "C:\Sounds\airhorn.mp3" -Loop
 MLG-TIME
+ff
 ```
-
 
 ## 🛠 Configuration
 You can customize:
