@@ -3,12 +3,12 @@
 EG Power Kit is a PowerShell module that turns your shell into a throwback audio experience. Whether you're launching MLG throwbacks, writing meme-ready intro functions, or just want your scripts to sound as cool as they look—this module delivers.
 
 ## 🎮 Features
-- 🎵 EGShellSoundEngine — play .mp3 files directly from PowerShell using .NET’s MediaPlayer
-- 🔁 Loop playback with instant Enter-to-stop control
-- ⚙️ Smart prompts for path, volume, and duration
-- 🪄 Alias support like Sound-Engine, play-audio, or MLG-TIME
+- 🎵 EGShellSoundEngine — Play .mp3 files directly from PowerShell using .NET’s MediaPlayer
+- Create-Environment-Variables — Create custom environment variables with `EG_` at the start.
+- Find-Files — Find files in your directory by the name of whatever you want.
+- Alias support like `help`, `ff`, and much more.
 - 🧠 Compatibility fallback for both Program Files and Program Files (x86)
-- 🗿 No COM dependencies. No WMP. Just pure shell juice.
+- 🗿 No COM dependencies. No WMP. No custom mods. Just pure shell juice.
 
 ## 🚀 Installation
 Clone the repo into `C:\Program Files\WindowsPowerShell\Modules` or `C:\Program Files (x86)\WindowsPowerShell\Modules` for x86-based systems.
