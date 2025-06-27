@@ -229,9 +229,10 @@ Set-Alias clear Clear-Screen
 Set-Alias MLG-TIME EGShell2016MLGThrowback
 Set-Alias Sound-Engine EGShellSoundEngine
 Set-Alias playaudio EGShellSoundEngine
+Set-Alias msg Write-Msg
 
 function global:EGShellGetModuleHelp {
-    Write-Host "Write-Msg / message `<message>` - Displays a message."
+    Write-Host "Write-Msg / message / msg `<message>` - Displays a message."
     Write-Host "Find-Files / ff `<name> <path> <depth>` - Finds files by name."
     Write-Host "Recent-Files / recent `<count>` - Shows recently modified files within 30 days."
     Write-Host "Reload-Module / reload - Reloads the module."
