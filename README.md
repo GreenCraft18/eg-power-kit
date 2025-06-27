@@ -56,7 +56,7 @@ In short terms, it means `Get-Command` doesn't exist, and instead is `help`.
 ``` PowerShell
 help
 ----
-Write-Msg / message <message> - Displays a message.
+Write-Msg / message / msg <message> - Displays a message.
 Find-Files / ff <name> <path> <depth> - Finds files by name.
 Recent-Files / recent <count> - Shows recently modified files within 30 days.
 Reload-Module / reload - Reloads the module.
