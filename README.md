@@ -56,17 +56,17 @@ In short terms, it means `Get-Command` doesn't exist, and instead is `help`.
 ``` PowerShell
 help
 ----
-Write-Msg / message`<message> - Displays a message.
-Write-Host "Find-Files / ff <name> <path> <depth> - Finds files by name.
-Write-Host "Recent-Files / recent <count> - Shows recently modified files within 30 days.
-Write-Host "Reload-Module / reload - Reloads the module.
-Write-Host "Module-Help / help - Displays this help message.
-Write-Host "PC-User-Info / who-am-i - Displays the current user and computer name.
-Write-Host "Clear-Screen / clear - Clears the screen.
-Write-Host "Create-Environment-Variables / create-env <name>- Creates a custom environment variable.
-Write-Host "View-Environment-Variables / view-env - Displays all custom environment variables.
-Write-Host "MLG-TIME - Invokes a throwback to the MLG era with a fun message.
-Write-Host Sound-Engine / playaudio <sound> <volume> <duration> <loop> - Plays an audio file with specified options.
+Write-Msg / message <message> - Displays a message.
+Find-Files / ff <name> <path> <depth> - Finds files by name.
+Recent-Files / recent <count> - Shows recently modified files within 30 days.
+Reload-Module / reload - Reloads the module.
+Module-Help / help - Displays this help message.
+PC-User-Info / who-am-i - Displays the current user and computer name.
+Clear-Screen / clear - Clears the screen.
+Create-Environment-Variables / create-env <name>- Creates a custom environment variable.
+View-Environment-Variables / view-env - Displays all custom environment variables.
+MLG-TIME - Invokes a throwback to the MLG era with a fun message.
+Sound-Engine / playaudio <sound> <volume> <duration> <loop> - Plays an audio file with specified options.
 ```
 
 ## 🛠 Configuration
