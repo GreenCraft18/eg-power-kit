@@ -1,10 +1,11 @@
+Clear-Host # Clears the console screen when the module is loaded.
 Write-Host "============================"   # Displays a header for the EG-power-kit module.
 Write-Host "          EG-power-kit™"                 # Displays the EG-power-kit logo.
 Write-Host "                 v1.0"                            # Displays a message indicating the version.
 Write-Host "============================"   # Displays a footer for the EG-power-kit module.
 
-function global:Write-Msg { # Makes the `Write-Msg` function available globally.
-    param ( # Defines the parameters for the `Write-Msg` function.
+function global:Send-Msg { # Makes the `Send-Msg` function available globally.
+    param ( # Defines the parameters for the `Send-Msg` function.
         [Parameter(Position = 0)] # Sets the position of the `$message` parameter.
         [string]$message  # The parameter/message to display.
     ) # End of parameters.
@@ -17,7 +18,7 @@ function global:Write-Msg { # Makes the `Write-Msg` function available globally.
     } # End of if statement.
     
     Write-Host $message # Displays the provided message in the console.
-} # End of the `Write-Msg` function.
+} # End of the `Send-Msg` function.
 
 function global:Find-Files { # Makes the `Find-Files` function available globally.
     param ( # Defines the parameters for the `Find-Files` function.
@@ -229,10 +230,10 @@ Set-Alias clear Clear-Screen
 Set-Alias MLG-TIME EGShell2016MLGThrowback
 Set-Alias Sound-Engine EGShellSoundEngine
 Set-Alias playaudio EGShellSoundEngine
-Set-Alias msg Write-Msg
+Set-Alias msg Send-Msg
 
 function global:EGShellGetModuleHelp {
-    Write-Host "Write-Msg / message / msg `<message>` - Displays a message."
+    Write-Host "Send-Msg / message / msg `<message>` - Displays a message."
     Write-Host "Find-Files / ff `<name> <path> <depth>` - Finds files by name."
     Write-Host "Recent-Files / recent `<count>` - Shows recently modified files within 30 days."
     Write-Host "Reload-Module / reload - Reloads the module."
