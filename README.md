@@ -80,4 +80,20 @@ You can customize:
 > This module was born from the ashes of WMPlayer.OCX errors and inspired by the eternal power of 2016 SFX memes.
 
 ## 📄 License
-MIT License — see LICENSE for details.
+MIT License — see LICENSE for details.  
+  
+This project is licensed under the MIT License.  
+Here’s what that means in plain terms:
+
+### ✅ Permissions
+- Commercial Use  
+- Modification  
+- Distribution  
+- Private Use  
+
+### 🚫 Limitations
+- No Liability  
+- No Warranty  
+
+### 📌 Conditions
+- Must include license and copyright notice
