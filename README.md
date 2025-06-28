@@ -1,6 +1,6 @@
 # 🔊 eg-power-kit
-**Bring the bass back to the terminal.**
-EG Power Kit is a PowerShell module that turns your shell into a throwback audio experience. Whether you're launching MLG throwbacks, writing meme-ready intro functions, or just want your scripts to sound as cool as they look—this module delivers.
+**Bring the bass back to the terminal.**  
+`eg-power-kit` is a PowerShell module that turns your shell into a throwback audio experience. Whether you're launching MLG throwbacks, writing meme-ready intro functions, or just want your scripts to sound as cool as they look—this module delivers. Open-source with a MIT license.
 
 ## 🎮 Features
 - 🎵 EGShellSoundEngine — Play .mp3 files directly from PowerShell using .NET’s MediaPlayer
