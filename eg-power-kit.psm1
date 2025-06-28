@@ -219,7 +219,7 @@ Set-Alias View-Environment-Variables EGShellViewCustomEnvironmentVariables
 Set-Alias Create-Environment-Variables EGShellMakeCustomEnvironmentVariables
 Set-Alias create-env EGShellMakeCustomEnvironmentVariables
 Set-Alias ff Find-Files
-Set-Alias message Write-Msg
+Set-Alias message Send-Msg
 Set-Alias Recent-Files EGShellFindMostRecentFiles
 Set-Alias recent EGShellFindMostRecentFiles
 Set-Alias Reload-Module EGShellReloadModule
