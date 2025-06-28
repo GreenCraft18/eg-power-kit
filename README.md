@@ -22,7 +22,7 @@ C:\Users\$env:USERNAME> Import-Module "C:\Program Files\WindowsPowerShell\Module
 C:\Users\$env:USERNAME> Import-Module "C:\Program Files (x86)\WindowsPowerShell\Modules\eg-power-kit"
 ```
 
-> Note: Requires PowerShell 5+ and .NET (WPF support). If you don't have PowerShell 5 or above, do this.
+> Note: Requires PowerShell 5+ and .NET (WPF support). If you don't have PowerShell 5 or above, install it from the [MS Store](https://apps.microsoft.com/detail/9mz1snwt0n5d?hl=en-US&gl=US) or do this in your PowerShell terminal.
 > ``` PowerShell
 > winget install --id Microsoft.PowerShell --source winget
 > ```
