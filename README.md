@@ -69,13 +69,6 @@ MLG-TIME - Invokes a throwback to the MLG era with a fun message.
 Sound-Engine / playaudio <sound> <volume> <duration> <loop> - Plays an audio file with specified options.
 ```
 
-## 🛠 Configuration
-You can customize:
-- Default paths or fallback logic
-- Auto-load MLG themes
-- Shell transition intros
-- Sound presets based on time of day
-
 ## 🧠 Trivia
 > This module was born from the ashes of WMPlayer.OCX errors and inspired by the eternal power of 2016 SFX memes.
 
