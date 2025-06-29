@@ -16,6 +16,8 @@ Clone the repo into `C:\Program Files\WindowsPowerShell\Modules` or `C:\Program 
 C:\Program Files\WindowsPowerShell\Modules> git clone https://github.com/GreenCraft18/eg-power-kit.git
 C:\Program Files (x86)\WindowsPowerShell\Modules> git clone https://github.com/GreenCraft18/eg-power-kit.git
 ```
+
+If you don't have `git`, download the [archived zip](https://github.com/GreenCraft18/eg-power-kit/archive/refs/heads/main.zip) and extract it manually.
 After that, import the module by using `Import-Module`.
 ``` PowerShell
 C:\Users\$env:USERNAME> Import-Module "C:\Program Files\WindowsPowerShell\Modules\eg-power-kit"
