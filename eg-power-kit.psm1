@@ -1,7 +1,7 @@
 Clear-Host # Clears the console screen when the module is loaded.
 Write-Host "============================"   # Displays a header for the EG-power-kit module.
-Write-Host "       EG-power-kit™"           # Displays the EG-power-kit logo.
-Write-Host "          v1.0.1"               # Displays a message indicating the version.
+Write-Host "           EG-power-kit™"                # Displays the EG-power-kit logo.
+Write-Host "                 v1.0.1"                           # Displays a message indicating the version.
 Write-Host "============================"   # Displays a footer for the EG-power-kit module.
 
 function global:Send-Msg { # Makes the `Send-Msg` function available globally.
@@ -11,8 +11,8 @@ function global:Send-Msg { # Makes the `Send-Msg` function available globally.
     ) # End of parameters.
  
     if (-not $message) { # Checks if the message parameter is not provided.
-        Write-Host "Usage: message <message>" # Displays usage instructions.
-        Write-Host "Example: message 'Hello, World!'" # Provides an example of how to use the function.
+        Write-Host "Usage: Send-Msg / message / msg `<message>` " # Displays usage instructions.
+        Write-Host "Example: message ""Hello, World!""" # Provides an example of how to use the function.
         Write-Host "This function displays a message in the console." # Explains what the function does.
         return # Exits the function if no message is provided.
     } # End of if statement.
