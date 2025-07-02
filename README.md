@@ -11,7 +11,7 @@
 - 🗿 No COM dependencies. No WMP. No custom mods. Just pure shell juice.
 
 ## 🚀 Installation
-Clone the repo into `C:\Program Files\WindowsPowerShell\Modules` or `C:\Program Files (x86)\WindowsPowerShell\Modules` for x86-based systems.
+Clone the repo into `C:\Program Files\PowerShell\7\Modules` or `C:\Program Files (x86)\PowerShell\7\Modules` for x86-based systems.
 ``` PowerShell
 C:\Program Files\WindowsPowerShell\Modules> git clone https://github.com/GreenCraft18/eg-power-kit.git
 C:\Program Files (x86)\WindowsPowerShell\Modules> git clone https://github.com/GreenCraft18/eg-power-kit.git
