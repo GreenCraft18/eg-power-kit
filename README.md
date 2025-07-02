@@ -1,6 +1,8 @@
 # 🔊 eg-power-kit
 **Bring the bass back to the terminal.**  
-`eg-power-kit` is a PowerShell module that turns your shell into a throwback audio experience. Whether you're launching MLG throwbacks, writing meme-ready intro functions, or just want your scripts to sound as cool as they look—this module delivers. Open-source with a MIT license.
+`eg-power-kit` is a PowerShell module that turns your shell into a throwback audio experience.  
+Whether you're launching MLG throwbacks, writing meme-ready intro functions, or just want your scripts to **sound** as cool as they look—this module delivers.  
+Open-source with a MIT license.
 
 ## 🎮 Features
 - 🎵 EGShellSoundEngine — Play .mp3 files directly from PowerShell using .NET’s MediaPlayer
@@ -52,6 +54,7 @@ play-audio "C:\Sounds\airhorn.mp3" -Loop
 MLG-TIME
 ff
 ```
+If you really wanted, you could add aliases to existing commands using `Set-Alias`! Just make sure you're not adding an alias to...an alias.
 
 ### `Get-Command` = False | `help` = True
 If you don't know what that means, it really doesn't matter.  
