@@ -138,7 +138,7 @@ function global:EGShell2016MLGThrowback { # Makes the `EGShell2016MLGThrowback` 
     $player.Open([Uri]::new($soundPath)) # Opens the audio file using the MediaPlayer.
     $player.Play() # Starts playing the audio file.
 
-    Start-Sleep -Seconds 5 # Wait for the sound to play for 5 seconds.
+    Start-Sleep -Seconds 3 # Wait for the sound to play for 3 seconds.
 
     Write-Host "My hope will never die..." # Displays a message indicating that the hope will never die.
 } # End of the `EGShell2016MLGThrowback` function.
