@@ -124,10 +124,10 @@ function global:EGShell2016MLGThrowback { # Makes the `EGShell2016MLGThrowback` 
     # Use WPF-based MediaPlayer to play MP3 without relying on Windows Media Player.
     Add-Type -AssemblyName PresentationCore
 
-    $soundPath = "C:\Program Files\WindowsPowerShell\Modules\eg-power-kit\MyHopeWillNeverDie.mp3" # Path to the audio file.
+    $soundPath = "C:\Program Files\PowerShell\7\Modules\eg-power-kit\MyHopeWillNeverDie.mp3" # Path to the audio file.
 
     if (-not (Test-Path $soundPath)) { # Checks if the audio file exists.
-        $soundPath = "C:\Program Files (x86)\WindowsPowerShell\Modules\eg-power-kit\MyHopeWillNeverDie.mp3" # If not found, checks in the x86 directory.
+        $soundPath = "C:\Program Files (x86)\PowerShell\7\Modules\eg-power-kit\MyHopeWillNeverDie.mp3" # If not found, checks in the x86 directory.
         if (-not (Test-Path $soundPath)) { # Checks if the audio file exists.
             Write-Host "Audio file not found at: $soundPath" -ForegroundColor Red # Displays an error message if the file is not found.
             return # Exits the function if the file is not found.
