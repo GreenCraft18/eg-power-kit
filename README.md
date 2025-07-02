@@ -15,16 +15,16 @@ Open-source with a MIT license.
 ## 🚀 Installation
 Clone the repo into `C:\Program Files\PowerShell\7\Modules` or `C:\Program Files (x86)\PowerShell\7\Modules` for x86-based systems.
 ``` PowerShell
-C:\Program Files\WindowsPowerShell\Modules> git clone https://github.com/GreenCraft18/eg-power-kit.git
-C:\Program Files (x86)\WindowsPowerShell\Modules> git clone https://github.com/GreenCraft18/eg-power-kit.git
+C:\Program Files\PowerShell\7\Modules> git clone https://github.com/GreenCraft18/eg-power-kit.git
+C:\Program Files (x86)\PowerShell\7\Modules> git clone https://github.com/GreenCraft18/eg-power-kit.git
 ```
 
 If you don't have `git`, download the [archived zip](https://github.com/GreenCraft18/eg-power-kit/archive/refs/heads/main.zip) and extract it manually, or install `git` from the official [Git Website.](https://git-scm.com/downloads)  
 
 After that, import the module by using `Import-Module` while PowerShell is running as Administrator. It's required.
 ``` PowerShell
-C:\Users\$env:USERNAME> Import-Module "C:\Program Files\WindowsPowerShell\Modules\eg-power-kit"
-C:\Users\$env:USERNAME> Import-Module "C:\Program Files (x86)\WindowsPowerShell\Modules\eg-power-kit"
+C:\Users\$env:USERNAME> Import-Module "C:\Program Files\PowerShell\7\Modules\eg-power-kit"
+C:\Users\$env:USERNAME> Import-Module "C:\Program Files (x86)\PowerShell\7\\Modules\eg-power-kit"
 ```
 
 > Note: Requires PowerShell 5+ and .NET (WPF support). If you don't have PowerShell 5 or above, install it from the [MS Store](https://apps.microsoft.com/detail/9mz1snwt0n5d?hl=en-US&gl=US) or do this in your PowerShell terminal.
