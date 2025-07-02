@@ -10,7 +10,7 @@ Open-source with a MIT license.
 - 📁 Find-Files — Find files in your directory by the name of whatever you want.
 - Alias support like `help`, `ff`, and much more.
 - 🧠 Compatibility fallback for both Program Files and Program Files (x86)
-- 🗿 No COM dependencies. No WMP. No custom mods. Just pure shell juice.
+- 🗿 No COM dependencies. No WMP. No custom mods. No runtimes. Just pure shell juice.
 
 ## 🚀 Installation
 Clone the repo into `C:\Program Files\PowerShell\7\Modules`. (x86 systems do not matter it'll install in the same spot)
